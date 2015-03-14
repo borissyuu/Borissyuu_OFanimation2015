@@ -22,6 +22,10 @@ public:
     void draw();
     
     ofVec2f pos, acc, vel;
+    
+    vector<ofVec2f> tail; //create a vector storage for the tail 
     float lifespan;
+    
+    ofPoint firetail;
     
 };

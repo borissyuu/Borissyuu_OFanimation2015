@@ -10,7 +10,7 @@
 #include "ofMain.h"
 #include "particle.h"
 
-#define NUMCIRCLE 100
+#define NUMCIRCLE 200
 
 class particleSystem {
 public:
@@ -21,5 +21,6 @@ public:
     
     vector<particle> particleList;
     ofVec2f pos;
+    
     
 };

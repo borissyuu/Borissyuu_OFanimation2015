@@ -3,9 +3,10 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
 
-    ofBackground(130, 190, 30);
+    ofBackground(200, 120, 30);
     //pos.set(ofGetWindowSize()/2);
     gravity.set(0.0, 0.1);
+    //ofSetBackgroundAuto(false);
 }
 
 //--------------------------------------------------------------
